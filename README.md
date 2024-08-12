@@ -1,57 +1,46 @@
-![GitHub License](https://img.shields.io/github/license/morytyann/OpenWrt-mihomo?style=for-the-badge) ![GitHub Actions Workflow Status](https://img.shields.io/github/actions/workflow/status/morytyann/OpenWrt-mihomo/build.yml?style=for-the-badge&label=build) ![GitHub Actions Workflow Status](https://img.shields.io/github/actions/workflow/status/morytyann/OpenWrt-mihomo/release.yml?style=for-the-badge&label=release) ![GitHub Tag](https://img.shields.io/github/v/tag/morytyann/OpenWrt-mihomo?style=for-the-badge) ![GitHub Downloads (all assets, all releases)](https://img.shields.io/github/downloads/morytyann/OpenWrt-mihomo/total?style=for-the-badge) ![GitHub Repo stars](https://img.shields.io/github/stars/morytyann/OpenWrt-mihomo?style=for-the-badge)
+r停止更新，暂停仓库, 停止使用仓库
 
-# OpenWrt-mihomo
+停止更新，暂停仓库, 停止使用仓库
 
-A project contains mihomo packages for OpenWrt.
+停止更新，暂停仓库, 停止使用仓库
 
-## Feature
- - Transparent Proxy (TPROXY/TUN, IPv4 and/or IPv6)
- - Access Control
- - Compatible with Multiple WAN
- - Profile Mixin
- - Profile Editor
- - Scheduled Restart
+停止更新，暂停仓库, 停止使用仓库
 
-## Usage
+停止更新，暂停仓库, 停止使用仓库
 
-See [Wiki](https://github.com/morytyann/OpenWrt-mihomo/wiki)
 
-## How does it work
+停止更新，暂停仓库, 停止使用仓库
 
-1. Mixin and Update profile.
-2. Run mihomo.
-3. Run hijack prepare script.
-4. Add exclusions. (wan/wan6 inbound, firewall rule/redirect, UPnP)
-5. Add router hijack.
-6. Add lan hijack with access control.
-7. Set scheduled restart.
+停止更新，暂停仓库, 停止使用仓库
 
-Note that the steps above may change base on config.
+停止更新，暂停仓库, 停止使用仓库
 
-## Compilation
+停止更新，暂停仓库, 停止使用仓库
 
-```shell
-# add mihomo feeds
-echo "src-git mihomo https://github.com/morytyann/OpenWrt-mihomo.git;main" >> "feeds.conf.default"
-# update & install feeds
-./scripts/feeds update -a
-./scripts/feeds install -a
-# make package
-make package/luci-app-mihomo/compile
-```
-The ipk file will be found under `bin/packages/your_architecture/mihomo`.
+停止更新，暂停仓库, 停止使用仓库
 
-## Dependencies
 
-- ca-bundle
-- curl
-- inotifywait
-- yq
-- firewall4
-- kmod-nft-tproxy
-- ip-full
-- kmod-tun
+停止更新，暂停仓库, 停止使用仓库
 
-## Warning
+停止更新，暂停仓库, 停止使用仓库
 
-- Only support firewall4 and will never support firewall3
+停止更新，暂停仓库, 停止使用仓库
+
+停止更新，暂停仓库, 停止使用仓库
+
+停止更新，暂停仓库, 停止使用仓库
+
+
+
+用途
+该项目被设计和开发仅供学习、研究和安全测试目的。它旨在为安全研究者、学术界人士和技术爱好者提供一个了解和实践网络通信技术的工具。
+
+合法性
+使用者在下载和使用该项目时，必须遵守当地法律和规定。使用者有责任确保他们的行为符合其所在地区的法律、规章以及其他适用的规定。
+
+免责
+作为该项目的作者，我（以下简称“作者”）强调该项目应仅用于合法、道德和教育目的。
+作者不鼓励、不支持也不促进任何形式的非法使用该项目。如果发现该项目被用于非法或不道德的活动，作者将强烈谴责这种行为。
+作者对任何人或团体使用该项目进行的任何非法活动不承担责任。使用者使用该项目时产生的任何后果由使用者本人承担。
+作者不对使用该项目可能引起的任何直接或间接损害负责。
+通过使用该项目，使用者表示理解并同意本免责声明的所有条款。如果使用者不同意这些条款，应立即停止使用
